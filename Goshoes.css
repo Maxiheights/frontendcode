@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+nav p {
+    margin: 0;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+    font-weight: 700;
+}
+nav a:hover {
+    text-decoration: underline;
+    color:black;
+}
+nav {
+    padding: 0 20px;
+    display: flex;
+    height: 50px;
+    line-height: 50px;
+    justify-content: space-between;
+}
+main {
+    display: flex;
+}
+section {
+    width: 50%;
+}
+img {
+    width: 100%;
+}
+#content {
+    box-sizing: border-box;
+    padding: 50px 150px;
+}
+#content h1 {
+    font-size: 50px;
+    margin: 0;
+}
+#content p {
+    font-size: 25px;
+    color: gray;
+}
+input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 80%;
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 10px;
+    outline: none;
+}
+button {
+    background-color: rgb(61, 88, 88);
+    color: white;
+    width: 80%;
+    font-size: 15px;
+    padding: 5px;
+}
+#icons i {
+    margin: 15px 0;
+    margin-right: 30px;
+    font-size: 25px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    padding: 0 10px;
+}
+.flex {
+    display: flex;
+    color: gray;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title<>Triangle</title>
+</head>
+<body>
+
+    <h2>1. Right Angle Triangle</h2> </br>
+    <h2>2. Flipped Right Angle Triangle</h2> </br>
+
+    <script>
+ function generatePyramid() {
+    let totalNumberofRows = 5;
+    let output = '';
+    for (let i = 1; i <= totalNumberofRows; i++) {
+        for (let j = 1; j <= i; j++) {
+            output += '*';
+        }
+        console.log(output);
+        output = '';
+    }
+}
+  
+generatePyramid();
+
+
+function createPyramid(rows)
+{
+    for (let i = 0; i < rows; i++) {
+        let totalNumberofRows = 5;
+        let output = '';
+        for (let j =0; j < totalNumberofRows - i; j++) 
+        output += ' ';
+        for (let k = 0; k <= i; k++) output += '*';
+        console.log(output);  
+    } 
+}
+
+createPyramid(5)
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+nav {
+    background-color: grey;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+h1 {
+    margin: 0
+}
+main {
+    display: flex;
+    margin-top: 50px;
+}
+aside {
+    width: 30%;
+    text-align: center;
+    background-color: skyblue;
+}
+.side {
+    padding: 20px;
+    box-sizing: border-box;
+}
+article {
+    width: 70%;
+}
+img {
+    width: 250px;
+}
+section {
+    display:flex;
+    background-color: lightgreen;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.odd {
+    background-color: yellow;
+    flex-direction: row-reverse;
+}

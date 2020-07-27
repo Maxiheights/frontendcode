@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    background-color: navajowhite;
+    padding: 15px;
+  }
+  #container {
+    display: flex;
+    flex-grow: 1;
+  }
+
+  section {
+    background-color: tomato;
+    padding: 10px;
+  }
+  aside {
+    background-color: turquoise;
+    width: 30vw;
+    padding: 10px;
+  }
+  footer {
+    padding: 15px;
+    background-color: sandybrown;
+    display: flex;
+    justify-content: center;
+  }
+  footer a {
+    padding-left: 5px;
+    padding-right: 5px;
+  }

@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+  }
+  header {
+    height: 14vh;
+    background-color: yellow;
+  }
+
+  #container {
+    height: 70vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    position: relative;
+  }
+
+  footer {
+    background-color: yellow;
+    height: 14vh;
+  }
+
+  article {
+    background-color: yellow;
+    position: absolute;
+    height: 100%;
+    width: 60vw;
+    left: 20vw;
+  }
+
+  nav {
+    background-color: yellow;
+    position: absolute;
+    height: 100%;
+    width: 19vw;
+  }
+
+  #ads {
+    background-color: yellow;
+    position: absolute;
+    height: 100%;
+    width: 19vw;
+    right: 0;
+  }
